@@ -1,0 +1,17 @@
+Package: TransPRS
+Title: Transfer Learning of Efficient Lasso for Large SNP Data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Transfer Learning for Efficient Lasso for Large SNP Data Using `snpnet`
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: snpnet, ROCR, utils, stringr, tibble, tidyr, stats, data.table, cindex, pgenlibr, glmnet (>= 3.0.2), dplyr, magrittr, reticulate
+Depends: R (>= 3.6.1)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
